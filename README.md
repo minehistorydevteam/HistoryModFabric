@@ -10,7 +10,7 @@ This mod was created to take snapshots of history and bring them into the immers
 
 If enjoy modding, history or minecraft I reccomend you give this mod a try. If you have any feedback please do not
 hesitate to give feedback.
-Discord : https://discord.gg/kPsuDU7
+Discord : https://discord.gg/4wtbUJU
 CurseForge :
 
 ## Setup
