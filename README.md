@@ -19,14 +19,11 @@ CurseForge :
 ### Eclipse
 - Clone this repository.
 - Open up cmd in your root project directory.
-- Run `gradlew setupDecompWorkspace` to decompile and build Minecraft and Fabric.
-- Run `gradlew eclipse` to download some more artifacts for building eclipse project.
-- Import project folder as an eclipse project and you are done.
+- Run `gradlew genSources eclipse`.
+- Open project in eclipse.
 
 ### Intellij IDEA
 - Clone this repository.
 - Open up cmd in your root project directory.
-- Run `gradlew setupDecompWorkspace` to decompile and build Minecraft and Fabric.
-- Run `gradlew idea`
-- Run `gradlew genIntellijRuns` to generate idea run configs.
-- Import the `build.gradle` file and you are done.
+- Run `gradlew genSources idea`.
+- Open the project in idea.
