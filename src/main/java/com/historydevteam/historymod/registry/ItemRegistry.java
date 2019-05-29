@@ -7,7 +7,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class HistoryModRegistry
+public class ItemRegistry
 {
     public static final Item STONE_WHEEL = new StoneWheelItem(new Item.Settings().itemGroup(HistoryMod.HISTORY_MOD));
     

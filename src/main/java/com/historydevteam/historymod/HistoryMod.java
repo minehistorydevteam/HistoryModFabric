@@ -1,7 +1,8 @@
 package com.historydevteam.historymod;
 
 import com.historydevteam.historymod.items.StoneWheelItem;
-import com.historydevteam.historymod.registry.HistoryModRegistry;
+import com.historydevteam.historymod.registry.BlockRegistry;
+import com.historydevteam.historymod.registry.ItemRegistry;
 import com.historydevteam.historymod.utils.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -17,6 +18,7 @@ public class HistoryMod implements ModInitializer
     @Override
     public void onInitialize()
     {
-        HistoryModRegistry.registerItems();
+        BlockRegistry.registerBlocks();
+        ItemRegistry.registerItems();
     }
 }

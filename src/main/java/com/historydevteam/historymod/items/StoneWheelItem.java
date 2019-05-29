@@ -1,6 +1,6 @@
 package com.historydevteam.historymod.items;
 
-import com.historydevteam.historymod.registry.HistoryModRegistry;
+import com.historydevteam.historymod.registry.ItemRegistry;
 import net.minecraft.item.Item;
 
 public class StoneWheelItem extends Item
@@ -12,6 +12,6 @@ public class StoneWheelItem extends Item
     
     public static Item getStoneWheelItem()
     {
-        return HistoryModRegistry.STONE_WHEEL;
+        return ItemRegistry.STONE_WHEEL;
     }
 }
